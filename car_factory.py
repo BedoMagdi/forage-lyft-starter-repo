@@ -1,4 +1,3 @@
-import imp
 from battery.nubbin_battery import NubbinBattery
 from battery.spindler_battery import SpindlerBattery
 from engine.capulet_engine import CapuletEngine
