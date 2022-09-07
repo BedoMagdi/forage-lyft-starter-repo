@@ -19,8 +19,6 @@ class TestNubbinBattery(unittest.TestCase):
         current_date = datetime.today().date()
         last_service_date = current_date.replace(year=current_date.year - 5)
         battery = NubbinBattery(last_service_date, current_date)
-        print(battery.last_service_date)
-        print(battery.current_date)
         self.assertTrue(battery.needs_service())
 
 
